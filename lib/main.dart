@@ -11,7 +11,9 @@ class MyApp extends StatelessWidget {
       print(name.text);
       print(email.text);
       print(age.text);
-
+      name.clear();
+      email.clear();
+      age.clear();
   }
   @override
   Widget build(BuildContext context) {
